@@ -1,0 +1,11 @@
+id,scenario,expected_primary_principle,purpose
+1,"A Save button completes the action but shows no message or status change.",Visibility of System Status,Tests feedback recognition
+2,"Submitting one invalid ZIP code clears every other field in the checkout form.",Preserve Valid User Input,Tests error recovery and preservation of work
+3,"Required fields are indicated only by turning their labels red.",Do Not Rely on Color Alone,Tests accessibility retrieval
+4,"The main navigation shows 18 equally prominent choices in one flat list.",Limit Overwhelming Choice,Tests cognitive-load guidance
+5,"Clicking Delete Account permanently removes the account immediately.",Confirm Consequential Actions,Tests destructive-action safeguards
+6,"Two pages use different names for the same customer identifier.",Consistency and Standards,Tests terminology consistency
+7,"A workflow requires users to remember a confirmation number from the previous screen.",Support Working Memory,Tests recognition versus recall
+8,"A form asks for a date but does not show what date format is accepted.",Explain Expected Formats,Tests form instruction guidance
+9,"A custom icon replaces a familiar Back control and has no text label.",Follow Familiar Conventions,Tests standards and mental models
+10,"The chatbot answers questions outside its knowledge base as if it is certain.",Set Appropriate Expectations,Tests conversational AI limitations
